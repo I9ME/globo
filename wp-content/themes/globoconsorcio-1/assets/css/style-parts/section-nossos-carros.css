@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+.nossos-carros {
+    background-color: #fff;
+}
+.page-veiculos .nossos-carros {
+    background-color: #eee;
+}
+.page .nossos-carros .title-carousel{
+    position: inherit;
+}
+.nossos-carros .title-carousel {
+    overflow: hidden;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    margin-bottom: 5px;
+    position: absolute;
+    left: 0;
+    z-index: 999
+}
+
+.nossos-carros .title-carousel h6:after,.nossos-planos h6:after {
+    content: url(../../images/baar.png);
+    position: absolute;
+    top: 24px;
+    right: 5px;
+    line-height: 100%
+}
+
+.nossos-carros .title-carousel h6,.nossos-planos h6  {
+    position: relative;
+    font-size: 13px;
+    color: #003792;
+    letter-spacing: 4px;
+    margin: 20px 0;
+    display: inline-block
+}
+
+.nossos-carros .title-carousel h2 {
+    color: #000;
+    margin-bottom: 22px
+}
+
+
+.nossos-carros .title-carousel h2:after {
+    content: '';
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    width: 75px;
+    background: #337ab7;
+    height: 4px;
+    transform: translateX(-50%);
+}
+
+
+.nossos-carros .title-carousel span {
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.depoimentos-list .item {
+    padding-top: 232px;
+}
+
+.depoimentos-list .item img {
+    width: 37px;
+    height: 40px;
+    display: inline-block;
+    margin: 57px 0 36px;
+}
+
+.depoimentos-list .item p {
+    color: #545454;
+    font-size: 16px;
+    width: 277px;
+    max-width: 100%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.depoimentos-list .owl-item:nth-child(even) .item {
+    position: relative;
+    background: #fafafa;
+}
+
+.depoimentos-list .owl-item:nth-child(odd) .item {
+    position: relative;
+    background: #f2f2f2;
+}
+
+.depoimentos-list .owl-item:nth-child(even) .item .info {
+    background: #f2f2f2;
+    padding-bottom: 130px;
+}
+
+.depoimentos-list .owl-item:nth-child(odd) .item .info {
+    background: #fafafa;
+    padding-bottom: 130px;
+}
+
+.depoimentos-list .owl-dots {
+    margin-top: -100px;
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    left: 0;
+    display: block;
+}
+
+.depoimentos-list .owl-dots .owl-dot.active span {
+    background-color: #003996;
+    width: 20px;
+    height: 20px;
+}
+
+.depoimentos-list .owl-dots .owl-dot span {
+    width: 20px;
+    height: 20px;
+    background-color: #ababab
+}
+
+.depoimentos-list .owl-nav {
+    position: absolute;
+    width: 100%;
+    top: 245px;
+}
+
+.depoimentos-list .owl-nav .owl-next,
+.depoimentos-list .owl-nav .owl-prev {
+    font-size: 0!important;
+    height: 110px;
+    width: 45px;
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.depoimentos-list .owl-nav .owl-prev {
+    float: left;
+    background: url(../../images/prev.png) center no-repeat #fff!important;
+}
+
+.depoimentos-list .owl-nav .owl-next {
+    float: right;
+    background: url(../../images/next.png) center no-repeat #fff!important;
+}
+
+.depoimentos-list .owl-item .item h6 {
+    position: relative;
+    font-size: 14px;
+    margin: 30px 0 70px;
+}
+
+.depoimentos-list .owl-item .item span {
+    margin: 7px 0;
+    display: block;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.depoimentos-list .owl-item .item .info figure {
+    display: inline-block;
+    margin: -50px 0;
+    width: 100%
+}
+
+.depoimentos-list .owl-item .item .info figure .borderImg{
+    position: relative;
+    display: inline-block;
+    width: 96px;
+    height: 96px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.depoimentos-list .owl-item .item .info figure img {
+    position: absolute;
+    display: block;
+    width: auto;
+    height: 110%;
+    top: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+.depoimentos-list .owl-item .item .info figure figcaption {
+    margin: 40px 0;
+    position: relative;
+}
+
+.depoimentos-list .owl-item .item .info figure figcaption span {
+    margin: 7px 0;
+    display: block;
+    text-transform: none!important;
+    font-size: 14px;
+}
+
+.depoimentos-list .owl-item .item .info figure figcaption .stars {
+    position: absolute;
+    top: 23px;
+    left: 79px;
+    display: inline-block;
+    height: 19px;
+    background: url(../../images/spritesA.png) no-repeat 46.5% -2%;
+    width: 19px;
+    float: left;
+    vertical-align: top;
+}
+
+.depoimentos-list .owl-item .item .info figure figcaption h6 {
+    display: block;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.depoimentos-list .owl-item .item .info button {
+    background-color: transparent;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0;
+    border: 2px solid #003996;
+    font-size: 13px;
+    color: #003996;
+    letter-spacing: 3px;
+    width: 190px;
+    height: 50px;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+

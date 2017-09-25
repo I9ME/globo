@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+.nossos-planos {
+    width: 100%;
+    background-color: #fff;
+}
+
+
+.nossos-planos h2 {
+    color: #000;
+    margin-bottom: 22px;
+}
+.home .nossos-planos h2:before{
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 4px;
+    background: #003996;
+    bottom: -20px;
+    left: 50%;
+    margin: 0 0 0 -35px;
+    content: '';
+
+}
+
+.nossos-planos h2 span {
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.nossos-planos .bloco-planos {
+    display: inline-block;
+    width: 100%;
+}
+
+.nossos-planos .bloco-planos li {
+    background-color: #fff;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.nossos-planos .bloco-planos li .img {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    width: 57px;
+    height: 57px;
+    background: #06A7C7;
+    border: none;
+    border-radius: 57px;
+    padding: 0;
+}
+
+.nossos-planos .bloco-planos li .img img {
+    position: absolute;
+    display: block;
+    width: 41px;
+    height: 38px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.nossos-planos .bloco-planos li div h5:before{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1px;
+    content: '';
+    background: #06A6C6;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.nossos-planos .bloco-planos li div h5,
+.nossos-planos .bloco-planos li div h5 .value {
+    position: relative;
+    color: #003996;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.nossos-planos .bloco-planos li div h5 .value{
+    background: #FFF;
+    padding: 0 15px;
+}
+
+
+.nossos-planos .bloco-planos li div p {
+    margin: 27px 0 0;
+    color: #535353;
+    text-align: center;
+}
+
+.nossos-planos .bloco-planos li div span {
+    color: #06A6C6;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+

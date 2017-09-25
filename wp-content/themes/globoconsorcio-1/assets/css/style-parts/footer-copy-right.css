@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.footer .layer_blue {
+    margin-bottom: -10px;
+    background-color: #002666!important;
+    color: #fff;
+    height: auto;
+    display: block;
+    width: 100%;
+    padding: 47px 0
+}
+
+.footer .layer_blue .copyright,
+.footer .layer_blue img {
+    color: #fff;
+    text-align: left;
+    letter-spacing: 0
+}
+
+.footer .layer_blue .copyright {
+    margin: 0 0 0 30px;
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: lighter;
+}
+
+.footer .layer_blue .copyright span {
+    text-transform: none;
+}
+
+.footer .logo-i9me{
+    text-align: right;
+}
+.link-i9me{
+    position: relative;
+    display: inline-block;
+}
+
