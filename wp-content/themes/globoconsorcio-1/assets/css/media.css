@@ -350,7 +350,7 @@
     .atendimento h2:before,
     .consorcio h2:before,
     .nossos-carros .title-carousel h2:after {
-        top: 40px
+        top: 76px;
     }
     .atendimento h2,
     .consorcio h2,
@@ -2019,20 +2019,20 @@ MARGINS AND PADDINGS - Margens e Espaçamentos - HMargin hPading vMargin vPaddin
         margin: 30px 0
     }
     .list-products .item {
-        padding-top: 95px
+        padding-top: 114px;
     }
     .list-products .item h4 {
-        margin: 10px 0
+        margin: 10px 0;
     }
     .list-products .owl-item .item .info figure {
-        margin: 45px 0 0
+        margin: 45px 0 0;
     }
     .list-products .owl-item .item .info figure figcaption {
-        margin: 20px 0
+        margin: 20px 0;
     }
     .list-products .owl-item:nth-child(even) .item:after,
     .list-products .owl-item:nth-child(odd) .item:after {
-        top: 118px
+        top: 142px;
     }
     .vantagens__bottom .vantagens__b .vantagens__conteudo h2,
     .vantagens__top .vantagens__a .vantagens__conteudo h2 {
