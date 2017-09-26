@@ -1,5 +1,5 @@
 <section class="vantagens__bottom effect"> 
-  <div class="col-md-6 col-sm-6 mobile-a">
+  <div class="col-md-6 col-sm-6 col-xs-12">
     <div class="row">
       <div class="vantagens__a">
         <ul class="vantagens__blocos">
@@ -32,7 +32,7 @@
       </div>
     </div>
   </div>
-  <div class="col-md-6 col-sm-6 col-xs-12 mobile-b">
+  <div class="col-md-6 col-sm-6 col-xs-12">
     <div class="row">
       <div class="vantagens__b">
         <div class="vantagens__conteudo">

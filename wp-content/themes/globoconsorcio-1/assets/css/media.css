@@ -350,7 +350,7 @@
     .atendimento h2:before,
     .consorcio h2:before,
     .nossos-carros .title-carousel h2:after {
-        top: 76px;
+        bottom: -20px;
     }
     .atendimento h2,
     .consorcio h2,
@@ -655,13 +655,14 @@
     }
     .metricas .clientes-ativos:before {
         content: "";
-        border-top: 2px solid #fff;
-        height: 10px;
-        width: 65px;
+        /*border-top: 2px solid #fff;*/
+        height: 106px;
+        width: 106px;
         display: block;
         position: absolute;
-        right: 17px;
-        bottom: -7px
+        left: -8px;
+        bottom: -9px;
+        border-radius: 53px;
     }
 }
 
@@ -2080,7 +2081,7 @@ MARGINS AND PADDINGS - Margens e Espaçamentos - HMargin hPading vMargin vPaddin
     }
     .depoimentos-list .owl-item:nth-child(even) .item,
     .depoimentos-list .owl-item:nth-child(odd) .item {
-        padding-top: 82px
+        padding-top: 132px;
     }
     .depoimentos-list .item img {
         margin: 20px 0
@@ -2100,7 +2101,7 @@ MARGINS AND PADDINGS - Margens e Espaçamentos - HMargin hPading vMargin vPaddin
         position: relative
     }
     .depoimentos-list .owl-item .item .info figure figcaption .stars {
-        left: 58px
+        left: 169px;
     }
 }
 
