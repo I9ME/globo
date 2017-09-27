@@ -101,13 +101,13 @@ section.light .form_simulacao .wpcf7-select {
     position: relative;
     top: -20px;
     border-radius: 0;
-    color: #000;
-    font-size: 20px;
+    color: rgba(150, 150, 150, 0.9);
+    font-size: 16px;
     text-transform: lowercase;
     padding: 13px 5px;
 }
 .simulacao .form_simulacao .wpcf7-select option:first-child{
-       color: #a2a2a2;
+    /*color: #a2a2a2;*/
 }
 .simulacao .form_simulacao .wpcf7-form-control-wrap {
     vertical-align: top;

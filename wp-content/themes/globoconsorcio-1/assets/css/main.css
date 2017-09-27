@@ -470,10 +470,10 @@ section.light .title {
     margin: 50px 0 0;
 }
 
-.list-products .owl-item .item .info figure img {
+/*.list-products .owl-item .item .info figure img {
     width: auto;
     height: 127px;
-}
+}*/
 
 .list-products .owl-item .item .info figure figcaption {
     margin: 40px 0;
